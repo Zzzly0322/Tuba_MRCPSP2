@@ -29,7 +29,7 @@ def dataStore(ins,file):
     for job in range(ins.number_job):
         for successor in ins.job_successors[job]:
             ins.job_predecessors[successor-1].append(job+1)
-    #duration and resources
+    #duration and resources  fsdf
     Row = 37
     for job in range(2,ins.number_job):
         resource={}
